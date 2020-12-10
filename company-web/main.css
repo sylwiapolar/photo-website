@@ -1,0 +1,67 @@
+:root{
+	font-size: 16px;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	background-color: #666;
+	color: #fff;
+}
+
+.icon{
+	font-size: 2rem;
+}
+
+.jumbotron{
+	/* Background pattern from Toptal Subtle Patterns */
+	background-image: url("img/background.jpg");
+	background-size: cover;
+	background-position-x: center;
+	background-attachment: fixed;
+	min-height: 100vh;
+	text-align: center;
+}
+
+.download{
+	margin-top: 45vh;
+}
+
+#section-description,
+#section-showcase,
+#section-oferta,
+#section-onas,
+#section-form,
+#top{
+	scroll-margin-top: 40px;
+	padding-top: 2.5rem;
+}
+
+#section-cennik{
+	scroll-margin-top: 40px;
+	color: #666;
+	padding-top: 2.5rem;
+}
+
+#section-cennik>h2 {
+	color: #fff;
+}
+
+#message{
+	resize: none;
+}
+
+.contact{
+	position: relative;
+	font-size: 1.25rem;
+}
+
+#submitbutton{
+	width: 150px;
+}
+
+.modal{
+	color: #666;
+}
