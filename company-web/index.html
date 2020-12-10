@@ -46,13 +46,13 @@
 					<a class="nav-link" href="#section-showcase">Portfolio</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#section-oferta">Services</a>
+					<a class="nav-link" href="#section-offer">Services</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#section-cennik">Prices</a>
+					<a class="nav-link" href="#section-prices">Prices</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#section-onas">Our Team</a>
+					<a class="nav-link" href="#section-us">Our Team</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#section-form">Contact</a>
@@ -95,7 +95,7 @@
 			<h2 class="display-4 mb-3 text-center">'Company Name' in action</h2>
 		</section>
 
-		<div id="carousel1" class="carousel slide col-10 offset-1" data-ride="carousel">
+		<div id="carousel1" class="carousel slide col-md-10 offset-md-1 col-12" data-ride="carousel">
 			<ol class="carousel-indicators">
 				<li data-target="#carousel1" data-slide-to="0" class="active"></li>
 				<li data-target="#carousel1" data-slide-to="1"></li>
@@ -105,19 +105,39 @@
 
 			<div class="carousel-inner" role="listbox">
 				<div class="carousel-item active">
-					<img src="img/01.jpg" alt="Obrazek nr 1" class="d-block w-100">
+					<picture>
+						<source media="(min-width: 992px)" srcset="img/01/01_w_1400.jpg">
+						<source media="(min-width: 768px)" srcset="img/01/01_w_1216.jpg">
+						<source media="(min-width: 576px)" srcset="img/01/01_w_851.jpg">
+						<img src="img/01/01_w_576.jpg" alt="Picture number 1" class="d-block w-100">
+					</picture>
 					<div class="carousel-caption">Description #1</div>
 				</div>
 				<div class="carousel-item">
-					<img src="img/02.jpg" alt="Obrazek nr 2" class="d-block w-100">
+					<picture>
+						<source media="(min-width: 992px)" srcset="img/02/02_w_1280.jpg">
+						<source media="(min-width: 768px)" srcset="img/02/02_w_1045.jpg">
+						<source media="(min-width: 576px)" srcset="img/02/02_w_765.jpg">
+						<img src="img/02/02_w_576.jpg" alt="Picture number 2" class="d-block w-100">
+					</picture>
 					<div class="carousel-caption">Description #2</div>
 				</div>
 				<div class="carousel-item">
-					<img src="img/03.jpg" alt="Obrazek nr 3" class="d-block w-100">
+					<picture>
+						<source media="(min-width: 992px)" srcset="img/03/03_w_1400.jpg">
+						<source media="(min-width: 768px)" srcset="img/03/03_w_1181.jpg">
+						<source media="(min-width: 576px)" srcset="img/03/03_w_785.jpg">
+						<img src="img/03/03_w_576.jpg" alt="Picture number 3" class="d-block w-100">
+					</picture>
 					<div class="carousel-caption">Description #3</div>
 				</div>
 				<div class="carousel-item">
-					<img src="img/04.jpg" alt="Obrazek nr 4" class="d-block w-100">
+					<picture>
+						<source media="(min-width: 992px)" srcset="img/04/04_w_1400.jpg">
+						<source media="(min-width: 768px)" srcset="img/04/04_w_1143.jpg">
+						<source media="(min-width: 576px)" srcset="img/04/04_w_773.jpg">
+						<img src="img/04/04_w_576.jpg" alt="Picture number 4" class="d-block w-100">
+					</picture>
 					<div class="carousel-caption">Description #4</div>
 				</div>
 			</div>
@@ -131,7 +151,7 @@
 			</a>
 		</div>
 
-		<section id="section-oferta">
+		<section id="section-offer">
 			<h2 class="display-4 mb-3 text-center">Our offer</h2>
 			<div class="row">
 				<div class="col-12 col-sm-6 col-lg-3">
@@ -161,7 +181,7 @@
 			</div>
 		</section>
 
-		<section id="section-cennik">
+		<section id="section-prices">
 			<h2 class="display-4 mb-3 text-center">Choose your own way!</h2>
 			<div class="row">
 
@@ -228,32 +248,32 @@
 			</div>
 		</section>
 
-		<section id="section-onas">
+		<section id="section-us">
 			<h2 class="display-4 mb-3 text-center">About us</h2>
 
 			<div class="row">
-				<div class="col-12 col-sm-6 col-lg-3">
-					<h3 class="h4 text-center">Jane Doe</h3>
+				<div class="col-12 col-sm-6 col-lg-3 mb-4 mb-lg-0 text-center">
+					<h3 class="h4">Jane Doe</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam aliquet dolor ut
-						tristique. Aliquam vulputate facilisis malesuada. Quisque at euismod nibh.</p>
+						tristique. Aliquam vulputate facilisis malesuada. </p>
 					<img src="img/JD01.jpg" class="rounded-circle img-fluid" alt="John Doe 1">
 				</div>
-				<div class="col-12 col-sm-6 col-lg-3">
-					<h3 class="h4 text-center">John Doe</h3>
+				<div class="col-12 col-sm-6 col-lg-3 mb-4 mb-lg-0 text-center">
+					<h3 class="h4">John Doe</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam aliquet dolor ut
-						tristique. Aliquam vulputate facilisis malesuada. Quisque at euismod nibh.</p>
+						tristique. Aliquam vulputate facilisis malesuada. </p>
 					<img src="img/JD02.jpg" class="rounded-circle img-fluid" alt="John Doe 2">
 				</div>
-				<div class="col-12 col-sm-6 col-lg-3">
-					<h3 class="h4 text-center">Jane Doe</h3>
+				<div class="col-12 col-sm-6 col-lg-3 mb-4 mb-sm-0 text-center">
+					<h3 class="h4">Jane Doe</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam aliquet dolor ut
-						tristique. Aliquam vulputate facilisis malesuada. Quisque at euismod nibh.</p>
+						tristique. Aliquam vulputate facilisis malesuada. </p>
 					<img src="img/JD03.jpg" class="rounded-circle img-fluid" alt="John Doe 3">
 				</div>
-				<div class="col-12 col-sm-6 col-lg-3">
-					<h3 class="h4 text-center">Jane Doe</h3>
+				<div class="col-12 col-sm-6 col-lg-3 mb-4 mb-sm-0 text-center">
+					<h3 class="h4">Jane Doe</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam aliquet dolor ut
-						tristique. Aliquam vulputate facilisis malesuada. Quisque at euismod nibh.</p>
+						tristique. Aliquam vulputate facilisis malesuada. </p>
 					<img src="img/JD04.jpg" class="rounded-circle img-fluid" alt="John Doe 4">
 				</div>
 			</div>

@@ -16,7 +16,6 @@ body{
 }
 
 .jumbotron{
-	/* Background pattern from Toptal Subtle Patterns */
 	background-image: url("img/background.jpg");
 	background-size: cover;
 	background-position-x: center;
@@ -31,15 +30,15 @@ body{
 
 #section-description,
 #section-showcase,
-#section-oferta,
-#section-onas,
+#section-offer,
+#section-us,
 #section-form,
 #top{
 	scroll-margin-top: 40px;
 	padding-top: 2.5rem;
 }
 
-#section-cennik{
+#section-prices{
 	scroll-margin-top: 40px;
 	color: #666;
 	padding-top: 2.5rem;
